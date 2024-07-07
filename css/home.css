@@ -71,6 +71,7 @@ body {
     margin-left: 0;
     margin-right: 0; 
     box-sizing: border-box;
+    min-height: 50vh;
   }
   
   .large-card {
