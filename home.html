@@ -1,125 +1,145 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Fitness App</title>
-  <!--Font import 'Monstserrat'. Google fonts didnt have Dustismo, 
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fitness App</title>
+    <!--Font import 'Monstserrat'. Google fonts didnt have Dustismo, 
             the font on the lucid chart design-->
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
-  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-  <link href="./css/home.css" rel="stylesheet">
-</head>
-<body>
-
-  <!-- Navigation Bar -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <div class="container-fluid">
-      <div class="navbar-card">
-        <a class="navbar-brand text-center" href="#">Fitness<br>App</a>
-      </div>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <div class="row w-100">
-          <div class="col-12 d-flex justify-content-end">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <div class="nav-link-card">
-                  <a class="nav-link" href="home.html">Home</a>
-                </div>
-              </li>
-              <li class="nav-item">
-                <div class="nav-link-card">
-                  <a class="nav-link" href="progress-report.html">Progress Report</a>
-                </div>
-              </li>
-              <li class="nav-item">
-                <div class="nav-link-card">
-                  <a class="nav-link" href="social.html">Social</a>
-                </div>
-              </li>
-              <li class="nav-item">
-                <div class="nav-link-card">
-                  <a class="nav-link" href="settings.html">Settings</a>
-                </div>
-              </li>
-            </ul>
-          </div>
-          <div class="col-12 d-flex justify-content-end mt-2">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <div class="nav-link-card">
-                  <a class="nav-link" href="activity-log.html">Activity Log</a>
-                </div>
-              </li>
-              <li class="nav-item">
-                <div class="nav-link-card">
-                  <a class="nav-link" href="goals.html">Goals</a>
-                </div>
-              </li>
-              <li class="nav-item">
-                <div class="nav-link-card">
-                  <a class="nav-link" href="workouts.html">Workouts</a>
-                </div>
-              </li>
-              <li class="nav-item">
-                <div class="nav-link-card">
-                  <a class="nav-link" href="nutrition.html">Nutrition</a>
-                </div>
-              </li>
-            </ul>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link href="./css/home.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <div class="navbar-card">
+          <a class="navbar-brand text-center" href="#">Fitness<br />App</a>
+        </div>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <div class="row w-100">
+            <div class="col-12 d-flex justify-content-end">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <div class="nav-link-card">
+                    <a class="nav-link" href="home.html">Home</a>
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <div class="nav-link-card">
+                    <a class="nav-link" href="progress-report.html"
+                      >Progress Report</a
+                    >
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <div class="nav-link-card">
+                    <a class="nav-link" href="social.html">Social</a>
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <div class="nav-link-card">
+                    <a class="nav-link" href="settings.html">Settings</a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="col-12 d-flex justify-content-end mt-2">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <div class="nav-link-card">
+                    <a class="nav-link" href="activity-log.html"
+                      >Activity Log</a
+                    >
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <div class="nav-link-card">
+                    <a class="nav-link" href="goals.html">Goals</a>
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <div class="nav-link-card">
+                    <a class="nav-link" href="workouts.html">Workouts</a>
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <div class="nav-link-card">
+                    <a class="nav-link" href="nutrition.html">Nutrition</a>
+                  </div>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  </nav>
+    </nav>
 
-  <!-- Main Content-->
-   <div class="main-card">
-    <div class="row">
-      <div class="col-md-12">
-        <h2 class="text-left">Home</h2>
-        <div class="content-card">
-        <div class="row mt-4">
-          <div class="col-md-6">
-            <div class="large-card"></div>
-          </div>
-          <div class="col-md-6">
-            <div class="row">
-              <div class="col-md-6">
-                <div class="small-card"></div>
+    <!-- Main Content-->
+    <div class="main-card">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="container mt-4">
+            <h2 class="text-left">Home</h2>
+            <div class="row mt-4">
+              <div class="col-md-8">
+                <h3>Welcome to the Fitness App!</h3>
+                <p>
+                  Here you can track your progress, set goals, and log your
+                  workouts and nutrition. You can also connect with friends and
+                  share your progress with them. Get started by selecting a
+                  category from the navigation bar. Lorem ipsum dolor sit amet,
+                  consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                  ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                  quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+                  ea commodo consequat. Duis aute irure dolor in reprehenderit
+                  in voluptate velit esse cillum dolore eu fugiat nulla
+                  pariatur. Excepteur sint occaecat cupidatat non proident, sunt
+                  in culpa qui officia deserunt mollit anim id est laborum.Lorem
+                  ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                  eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                  enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                  irure dolor in reprehenderit in voluptate velit esse cillum
+                  dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                  cupidatat non proident, sunt in culpa qui officia deserunt
+                  mollit anim id est laborum.
+                </p>
               </div>
-              <div class="col-md-6">
-                <div class="small-card"></div>
-              </div>
-              <div class="col-md-6">
-                <div class="small-card"></div>
-              </div>
-              <div class="col-md-6">
-                <div class="small-card"></div>
+              <div class="col-md-4 d-flex justify-content-end">
+                <img
+                  src="Images/StockRunner.jpg"
+                  alt="Image Placeholder"
+                  class="img-fluid"
+                  style="object-fit: cover; width: 100%; height: 100%"
+                />
               </div>
             </div>
           </div>
         </div>
-        
-        <div class="row mt-4">
-          <div class="col-md-6">
-            <div class="medium-card"></div>
-          </div>
-          <div class="col-md-6">
-            <div class="medium-card"></div>
-          </div>
-        </div>
-       </div>
       </div>
     </div>
 
-</div>
-
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-</body>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
 </html>
