@@ -1,97 +1,156 @@
 body {
-    background-color: #2f2e2e;
-    font-family: 'Montserrat', sans-serif;
-    
-  }
-  
-  .navbar {
-    background-color: #8a2be2 !important; 
-    padding-top: 40px;
-    padding-bottom: 40px; 
-    display: flex;
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-bottom: 10px;
-  }
-
-  .navbar-card {
-    background-color: #ffffff;
-    padding: 20px 30px;
-    border-radius: 2px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .navbar-brand {
-    font-size: xxx-large;
-    color: #333333 !important; 
-  }
-
-  .nav-link-card {
-    background-color: rgb(213, 210, 210);
-    padding: 5px 10px;
-    border-radius: 2px;
-    margin: 0 5px; 
-    text-align: center;
-  }
-  
-  .nav-link {
-    font-size: larger;
-    color: #333333 !important; 
-  }
-
-  .nav-link.active {
-    background-color: #9370db; 
-    border-radius: 5px;
-    color: #ffffff24 !important;
-  }
-
-  .main-card {
-    background-color: #c7c6c6 !important;
-    padding: 10px; 
-    box-sizing: border-box;
-    margin-left: 50px;
-    margin-right: 50px;
-    min-height: 80vh;
-    margin-bottom: 50px;
+  background-color: #2f2e2e;
+  font-family: 'Montserrat', sans-serif;
 }
-  
-  .main-card h2 {
-    color: #000000;
-    padding: 20px 0;
-  }
 
-  .content-card {
-    width: 100%;
-    background-color: #ffffff;
-    padding: 15px;
-    padding-left: 20px;
-    padding-right: 20px;
-    margin-left: 0;
-    margin-right: 0; 
-    box-sizing: border-box;
-    min-height: 50vh;
-  }
-  
-  .large-card {
-    width: 100%;
-    height: 200px;
-    background-color:#7f65c5; 
-    
-  }
-  
-  .small-card {
-    width: 100%;
-    height: 50px;
-    background-color:#7f65c5;
-    margin-bottom: 15px;
-  }
-  
-  .medium-card {
-    width: 100%;
-    height: 100px;
-    background-color: #7f65c5; 
-    margin-bottom: 15px;
-  }
-  
+.navbar {
+  background-color: #8a2be2 !important; 
+  padding-top: 40px;
+  padding-bottom: 40px; 
+  display: flex;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 10px;
+}
+
+.navbar-card {
+  background-color: #ffffff;
+  padding: 20px 30px;
+  border-radius: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar-brand {
+  font-size: xxx-large;
+  color: #333333 !important; 
+}
+
+.nav-link-card {
+  background-color: rgb(213, 210, 210);
+  padding: 5px 10px;
+  border-radius: 2px;
+  margin: 0 5px; 
+  text-align: center;
+}
+
+.nav-link {
+  font-size: larger;
+  color: #333333 !important; 
+}
+
+.nav-link.active {
+  background-color: #9370db; 
+  border-radius: 5px;
+  color: #ffffff24 !important;
+}
+
+.main-card {
+  background-color: #c7c6c6 !important;
+  padding: 10px; 
+  box-sizing: border-box;
+  margin-left: 50px;
+  margin-right: 50px;
+  min-height: 80vh;
+  margin-bottom: 50px;
+}
+
+.main-card h2 {
+  color: #000000;
+  padding: 20px 0;
+}
+
+.content-card {
+  width: 100%;
+  background-color: #e8e8e8;
+  padding: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+  box-sizing: border-box;
+  min-height: 70vh;
+}
+
+.large-card {
+  width: 220px;
+  height: 220px;
+  background-color: #c7c6c6;
+  border: 5px solid #7f65c5; 
+  box-sizing: border-box;
+  margin: 5px;
+}
+
+.small-card {
+  width: 220px;
+  height: 130px;
+  background-color: #7f65c5;
+  margin-bottom: 15px;
+  margin-left: 5px;
+}
+
+.medium-card {
+  width: 100%;
+  height: 100px;
+  background-color: #7f65c5; 
+  margin-bottom: 15px;
+}
+
+.scrollable-card {
+  max-height: 400px; 
+  overflow-y: auto;
+  padding-right: 15px; 
+}
+
+.large-text-card {
+  width: 250px;
+  height: 150px;
+  background-color: #c7c6c6;
+  margin-top: 20px;
+  margin-left: 90px !important;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  margin-left: 5px;
+}
+
+h3 {
+  color: antiquewhite;
+  font-weight: bolder;
+  padding-top: 5px;
+  padding-left: 5px;
+}
+
+.back-card {
+  background-color: #beaeeb;
+  width: 100%;
+  padding: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+button {
+  padding-left: 50px;
+  margin-left: 90px !important;
+  width: 120px; 
+  white-space: nowrap; 
+}
+
+.large-card, .large-text-card, .small-card, .btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  margin: 10px;
+}
+
+#message, #message2, #message3, #message4 {
+  margin-left: 100px;
+}
+
+
+
+
