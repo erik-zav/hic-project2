@@ -110,7 +110,9 @@ body {
     
 
   }
+
   
+  /* number one */
   .custom-control-input:checked~.custom-control-label::before {
     background-color: #007bff;
     border-color: #007bff;
@@ -121,6 +123,57 @@ body {
   }
   
   .custom-control-input:checked~.custom-control-label::after {
+    background-color: #fff;
+    transform: translateX(1.25rem);
+  }
+
+
+
+  /* number two */
+  .custom-control2-input:checked~.custom-control2-label::before {
+    background-color: #007bff;
+    border-color: #007bff;
+  }
+
+  .custom-control2-input:focus~.custom-control2-label::before {
+    box-shadow: 0 0 0 1px #fff, 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+  }
+  
+  .custom-control2-input:checked~.custom-control2-label::after {
+    background-color: #fff;
+    transform: translateX(1.25rem);
+  }
+
+
+
+  /* number three */
+  .custom-control3-input:checked~.custom-control3-label::before {
+    background-color: #007bff;
+    border-color: #007bff;
+  }
+
+  .custom-control3-input:focus~.custom-control3-label::before {
+    box-shadow: 0 0 0 1px #fff, 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+  }
+  
+  .custom-control3-input:checked~.custom-control3-label::after {
+    background-color: #fff;
+    transform: translateX(1.25rem);
+  }
+
+
+
+  /* number four */
+  .custom-control4-input:checked~.custom-control4-label::before {
+    background-color: #007bff;
+    border-color: #007bff;
+  }
+
+  .custom-control4-input:focus~.custom-control4-label::before {
+    box-shadow: 0 0 0 1px #fff, 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+  }
+  
+  .custom-control4-input:checked~.custom-control4-label::after {
     background-color: #fff;
     transform: translateX(1.25rem);
   }
