@@ -73,8 +73,21 @@ body {
     box-sizing: border-box;
     min-height: 50vh;
   }
+
+  .scrollable-card {
+    max-height: 500px; 
+    overflow-y: auto;
+    padding-right: 15px; 
+  }
   
   .large-card {
+    width: 100%;
+    height: 200px;
+    background-color: #c7c6c6 ; 
+    
+  }
+
+  .large-img-card {
     width: 100%;
     height: 200px;
     background-color:#7f65c5; 
@@ -83,9 +96,18 @@ body {
   
   .small-card {
     width: 100%;
-    height: 50px;
-    background-color:#7f65c5;
-    margin-bottom: 15px;
+    height: 170px;
+    background-color: #ffffff ;
+    margin: 15px;
+  }
+
+  .time-card {
+    width: 92%;
+    height: 170px;
+    background-color: #ffffff ;
+    margin-top: 15px;
+    
+    
   }
   
   .medium-card {
@@ -93,5 +115,12 @@ body {
     height: 100px;
     background-color: #7f65c5; 
     margin-bottom: 15px;
+  }
+
+  img {
+    width: 95%;
+    height: 190px;
+    margin-left: 5px;
+    margin-top: 5px;
   }
   
