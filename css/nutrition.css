@@ -94,4 +94,34 @@ body {
     background-color: #7f65c5; 
     margin-bottom: 15px;
   }
+
+  .long-card {
+    width: 100%;
+    height: auto;
+    background-color:#7f65c5; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px    
+  }
+
+  .img-boarder {
+    width: 100%;
+    height: auto;
+    background-color:#7f65c5; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px
+  }
+
+  .auto-card {
+    width: 100%;
+    height: auto;
+    background-color:#7f65c5; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px
+  }
   
